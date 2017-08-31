@@ -248,7 +248,7 @@ var tmpl = template.Must(template.New("tmpl").Parse(`
 	{{end}}
 	</h1>
 	<p>
-	Current Server Time: {{.Time}}
+	Go Application Build Date / Time: {{.Time}}
 	</p>
 </center></body></html>
 `))
